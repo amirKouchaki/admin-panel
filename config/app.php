@@ -174,7 +174,9 @@ return [
         */
 
         \Infrastructure\Shared\Services\SMS\providers\SMSServiceProvider::class,
-        \Infrastructure\User\providers\UserServiceProvider::class
+        \Infrastructure\User\providers\UserServiceProvider::class,
+        \Infrastructure\Product\Providers\ProductServiceProvider::class,
+        \Infrastructure\Admin\Providers\AdminServiceProvider::class,
     ])->toArray(),
 
     /*

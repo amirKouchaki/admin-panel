@@ -22,13 +22,6 @@ Route::get('/', static function () {
 
 
 
-Route::get('dashboard',static function () {
-    return view('dashboard',
-    [
-        'user' => auth()->user()
-    ]
-    );
-})->name('dashboard')->middleware("auth");
 
 Route::get("tables",static function() {
     return view("tables");
