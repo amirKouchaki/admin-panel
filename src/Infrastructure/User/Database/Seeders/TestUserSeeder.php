@@ -1,10 +1,8 @@
 <?php
 
-namespace Database\Seeders;
+namespace Infrastructure\User\Database\Seeders;
 
-use Database\Factories\UserFactory;
 use Domains\User\Models\User;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class TestUserSeeder extends Seeder

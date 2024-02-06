@@ -1,3 +1,5 @@
+@props(['products'])
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -63,7 +65,7 @@
               <!-- ====== Table One End -->
 
               <!-- ====== Table Two Start -->
-              <x-partials.table-02/>
+              <x-partials.table-02 :products="$products"/>
               <!-- ====== Table Two End -->
 
               <!-- ====== Table Three Start -->

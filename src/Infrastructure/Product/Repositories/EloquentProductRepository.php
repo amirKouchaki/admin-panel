@@ -2,7 +2,15 @@
 
 namespace Infrastructure\Product\Repositories;
 
-class EloquentProductRepository
+use Domains\Product\Models\Product;
+use Domains\Product\Repositories\ProductRepository;
+use Illuminate\Database\Eloquent\Collection;
+
+class EloquentProductRepository implements  ProductRepository
 {
 
+    public function getAllWithCategory(): Collection|array
+    {
+        return Product::with('category')->get();
+    }
 }

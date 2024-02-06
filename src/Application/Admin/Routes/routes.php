@@ -1,6 +1,7 @@
 <?php
 
 use Application\Admin\Http\Controller\DashboardController;
+use Application\Admin\Http\Controller\TableController;
 use Illuminate\Support\Facades\Route;
 use Application\User\notifications\SendOTPNotification;
 use Domains\User\Models\User;
@@ -13,5 +14,5 @@ Route::get('/user-sms-test', static function() {
 });
 
 Route::get('dashboard', DashboardController::class)->name('dashboard')->middleware("auth");
-
+Route::get('tables', TableController::class)->name('tables');
 
