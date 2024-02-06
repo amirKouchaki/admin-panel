@@ -3,11 +3,11 @@
 namespace Application\User\notifications;
 
 
-use Domains\Shared\Enums\SMSPattern;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Notification;
 use Infrastructure\Shared\Services\SMS\DTOs\PatternSMSChannelDTO;
+use Infrastructure\Shared\Services\SMS\Enums\SMSPattern;
 
 class SendOTPNotification extends Notification implements ShouldQueue
 {

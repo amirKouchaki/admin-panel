@@ -3,7 +3,7 @@
 namespace Infrastructure\Shared\Services\SMS\DTOs;
 
 
-use Domains\Shared\Enums\SMSPattern;
+use Infrastructure\Shared\Services\SMS\Enums\SMSPattern;
 
 class PatternSMSChannelDTO
 {

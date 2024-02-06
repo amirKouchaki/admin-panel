@@ -3,8 +3,7 @@
 namespace Domains\Shared\Contracts\SMS;
 
 
-use Domains\Shared\Enums\SMSPattern;
-
+use Infrastructure\Shared\Services\SMS\Enums\SMSPattern;
 
 
 abstract class SMSContract

@@ -1,6 +1,6 @@
 <?php
 
-namespace Domains\Shared\Enums;
+namespace Infrastructure\Shared\Services\SMS\Enums;
 
 enum SMSPattern : int
 {

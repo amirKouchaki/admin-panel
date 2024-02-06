@@ -3,8 +3,8 @@
 namespace Infrastructure\Shared\Services\SMS\Implementations;
 
 use Domains\Shared\Contracts\SMS\SMSContract;
-use Domains\Shared\Enums\SMSPattern;
 use Illuminate\Support\Facades\Http;
+use Infrastructure\Shared\Services\SMS\Enums\SMSPattern;
 
 class MelipayamakService extends SMSContract
 {
