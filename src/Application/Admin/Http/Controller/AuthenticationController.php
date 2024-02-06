@@ -1,11 +1,11 @@
 <?php
 
-namespace Application\User\Http\Controllers;
+namespace Application\Admin\Http\Controller;
 
 
+use Application\Admin\Http\Requests\LoginRequest;
+use Application\Admin\Http\Requests\RegisterRequest;
 use Application\Shared\Http\Controller\Controller;
-use Application\User\Http\Requests\LoginRequest;
-use Application\User\Http\Requests\RegisterRequest;
 use Domains\User\DTOs\UserDTO;
 use Domains\User\Repositories\UserRepositoryContract;
 use Illuminate\Http\RedirectResponse;

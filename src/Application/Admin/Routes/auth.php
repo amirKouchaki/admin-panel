@@ -1,6 +1,7 @@
 <?php
 
-use Application\User\Http\Controllers\AuthenticationController;
+use Application\Admin\Http\Controller\AuthenticationController;
+use Illuminate\Support\Facades\Route;
 
 Route::group(['as' => 'auth.', 'prefix' => 'auth'], static function () {
 
